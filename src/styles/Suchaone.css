@@ -1,0 +1,34 @@
+.marco-uno{
+    position: absolute;
+    top: 5%; left: 5%;
+    width: 30%; height: 25%;
+    border: 5px solid hsl(271, 100%, 38%);
+    border-radius: 20px;
+    font-family: 'IM Fell Double Pica', serif;
+    display: flex;
+    align-items: center;
+    background-color: hsl(271, 100%, 38%);
+}
+
+.marco-uno:hover{
+    animation: aum 2s infinite;
+}
+
+.marco-uno img{
+    width: 90%;
+    border-radius: 50%;
+}
+
+.imguno{
+    width: 40%;
+}
+
+@keyframes aum{
+    0%{transform: scale(1.2);}
+    50%{transform: scale(1.05);}
+    100%{transform: scale(1.2);}
+}
+
+.infouno{
+    color: rgb(190, 252, 133);
+}
